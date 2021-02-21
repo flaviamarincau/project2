@@ -1,0 +1,62 @@
+#banner{
+    width:100%;
+    padding: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:30%;
+    border-radius: 50%;
+}
+.no-repeat{
+    width:100%;
+    border-radius:30%;
+}
+.spatiu-liber{
+    height:5vh;
+}
+.text{
+    width:350px;
+    font-family:monospace;
+}
+#titlu {
+    text-align:center;
+    font-size:xxx-large;
+    font-weight:bolder;
+    color:brown;
+    font-family:arial;
+    font-stretch: expanded;
+    background-color:burlywood;
+    opacity:80%;
+}
+p{
+    color:aliceblue;
+    font-weight: bolder;
+    text-align: justify;
+    font-size: larger;
+
+
+}
+.container{
+
+    background: linear-gradient(to bottom, #a52a2a 0%, #ffcccc 100%);
+    border-radius: 8%;
+    border: 5px solid wheat;
+    border-style:double
+    padding:5%;
+}
+body{
+    background-image: url("https://www.wattagnet.com/ext/resources/Images-by-month-year/19_12/poultry/Romania-Map.jpg");
+}
+.stick{
+    position: relative;
+    width:100%;
+    transition-property: width;
+    transition-duration:0.5s;
+}
+.stick:hover{
+    width:200%;
+    z-index: 1000;
+}
+.row {
+    padding:3%;
+}
